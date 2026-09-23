@@ -8,6 +8,16 @@ This is Zakariya Ghazzol's personal model-rocket project, separate from Project
 Neptune. It has not flown. The carrier PCB remains unfinished, and no integrated
 physical flight computer is demonstrated by this repository.
 
+## Hardware schematic
+
+[![Candidate flight-computer schematic](hardware/images/flight-computer-schematic.svg)](hardware/images/flight-computer-schematic.svg)
+
+Current component-level schematic, exported from the existing KiCad design.
+Open the image at full size to inspect the connections. This is a **candidate
+design, not fabrication-released hardware**: battery-contact polarity, the
+off-board disconnect, power integrity, and physical-interface checks remain
+open. The carrier PCB is unrouted. See [hardware status](hardware/README.md).
+
 ## Safety boundary
 
 The software observes and logs; it does not ignite motors, fire pyrotechnics,

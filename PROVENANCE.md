@@ -22,12 +22,22 @@ changes are limited to:
 No existing source attribution or license header in the included implementation
 files was removed.
 
+### Schematic image added on 2026-09-23
+
+`hardware/images/flight-computer-schematic.svg` is an unmodified KiCad SVG export
+of the existing candidate schematic, not a newly invented design or measurement.
+Only the README and hardware-status documentation were expanded to present it.
+The original schematic's component values and connections were not edited.
+The export contains project module-interface symbols and standard KiCad symbols;
+it does not distribute manufacturer footprints, 3D models, or editable board CAD.
+See [hardware status](hardware/README.md) for the configured ERC result and limits.
+
 ## Excluded material
 
 - Raw GPS logs, generated CSV/build outputs, private file paths and local reports.
 - Imported Nano/Uno/LoRa dashboard bundles and ESP32 camera projects, which are
   separate projects or third-party baselines, not new flight-core authorship.
-- KiCad files, manufacturer-derived footprints, and 3D models pending a complete
+- Editable KiCad files, manufacturer-derived footprints, and 3D models pending a complete
   redistribution/attribution review. The private hardware source cites Raspberry
   Pi and Adafruit geometry; those models/designs are not authored wholesale by
   the project owner. A Raspberry Pi STEP model has its own MIT notice, which
