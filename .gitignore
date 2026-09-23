@@ -1,0 +1,33 @@
+# Local builds and generated telemetry
+/build*/
+*.csv
+*.log
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.pdb
+*.ilk
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Imported development material is outside this showcase's scope
+/imports/
+/output/
+/tmp/
