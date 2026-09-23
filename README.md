@@ -4,10 +4,6 @@ An experimental, observation-only flight-computer prototype: portable C++17
 filtering, flight-state classification, CSV logging, fault reporting, and
 versioned telemetry, with host tests and Python ground-side protocol tools.
 
-This is Zakariya Ghazzol's personal model-rocket project, separate from Project
-Neptune. It has not flown. The carrier PCB remains unfinished, and no integrated
-physical flight computer is demonstrated by this repository.
-
 ## Hardware schematic
 
 [![Candidate flight-computer schematic](hardware/images/flight-computer-schematic.svg)](hardware/images/flight-computer-schematic.svg)
