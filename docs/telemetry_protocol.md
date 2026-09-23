@@ -80,6 +80,6 @@ DATA,FC1,packet,time_ms,state,...,RSSI:-58
 ```
 
 The Python parser accepts these plus both unchanged GPS-only envelopes.
-Nano/Uno firmware and the legacy dashboard are outside this showcase. Host
+Nano/Uno firmware and the legacy dashboard are outside this repository. Host
 compatibility tests do not establish that the physical radio path carries FC1.
 The fixtures here are synthetic; no captured locations are distributed.

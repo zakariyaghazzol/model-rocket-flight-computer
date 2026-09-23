@@ -66,7 +66,7 @@ verification recorded below.
 
 ## Verification record — 2026-09-23
 
-Fresh build of this curated copy on Windows, CMake 4.2.3, Visual Studio 18 2026
+Build of the published source on Windows, CMake 4.2.3, Visual Studio 18 2026
 generator, MSVC 19.50.35728.0, Debug configuration, Python 3.14.3:
 
 | Check | Observed result |
@@ -82,4 +82,4 @@ The simulator output showed `SELF_TEST`, `PAD`, `BOOST`, `COAST`, `APOGEE`,
 `DESCENT`, and `LANDED` in order. It transitions out of `BOOT` before the first
 CSV row. These results establish host behavior only; they do not establish
 physical flight, sensor accuracy, power integrity or flight readiness. No Linux,
-macOS, MCU-target or physical HIL test was run during this curation.
+macOS, MCU-target or physical HIL test was run during this verification.
